@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 300px;
+}
+
+main {
+  margin-left: 320px;
+}
