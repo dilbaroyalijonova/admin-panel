@@ -15,6 +15,33 @@ a {
   text-decoration: none;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.logo__araund {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: azure;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(71, 71, 240);
+}
+
+.logo__letter {
+  font-size: 26px;
+  color: black;
+  font-weight: 700;
+}
+
 nav a {
   text-decoration: none;
   color: rgb(202, 192, 192);
@@ -23,11 +50,20 @@ nav a {
   padding-left: 10px;
 }
 
+.dashboard {
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: blue;
+}
+
 .navbar-foot a {
   text-decoration: none;
   color: rgb(202, 192, 192);
   line-height: 30px;
   font-size: 22px;
+  padding-bottom: 20px;
 }
 
 .navbar {
@@ -39,6 +75,40 @@ nav a {
   height: 100vh;
   width: 300px;
   margin: 20px;
+}
+
+.chack0 {
+  background-color: aqua;
+}
+
+#chack {
+  appearance: none;
+  width: 40px;
+  height: 20px;
+  background-color: gray;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+#chack:checked {
+  background-color: blue;
+}
+
+#chack::before {
+  content: ;
+  width: 16px;
+  height: 16px;
+  background-color: azure;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: all 0.5s;
+}
+
+#chack:checked::before {
+  left: 16px;
 }
 
 .main {
@@ -82,7 +152,7 @@ span {
 }
 
 .box img {
-  text-align: center;
+  margin-left: 160px;
 }
 
 .box {
