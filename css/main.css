@@ -11,7 +11,19 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav a {
+  text-decoration: none;
+  color: rgb(202, 192, 192);
+  line-height: 30px;
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+.navbar-foot a {
   text-decoration: none;
   color: rgb(202, 192, 192);
   line-height: 30px;
@@ -67,6 +79,10 @@ span {
   margin: 20px;
   display: flex;
   justify-content: space-between;
+}
+
+.box img {
+  text-align: center;
 }
 
 .box {
