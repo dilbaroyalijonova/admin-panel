@@ -145,6 +145,10 @@ span {
   flex-direction: column;
 }
 
+.navbar-foot a:hover {
+  color: blue;
+}
+
 .boxs {
   margin: 20px;
   display: flex;
