@@ -113,7 +113,13 @@ table {
   text-align: center;
 }
 
-td div {
+.activity1 {
+  padding-left: 20px;
+  display: flex;
+}
+
+td div,
+.spam {
   width: 30px;
   height: 30px;
   border-radius: 2px;
