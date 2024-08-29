@@ -72,8 +72,8 @@ span {
 .box {
   display: flex;
   flex-direction: column;
-  width: 330px;
-  height: 125px;
+  width: 350px;
+  height: 170px;
   border-radius: 10px;
   text-align: center;
   justify-content: center;
@@ -94,10 +94,22 @@ span {
 table {
   width: 100%;
   padding: 20px;
+  text-align: center;
+}
+
+td div {
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  background-color: rgb(86, 86, 181);
+}
+
+th {
+  font-size: 25px;
 }
 
 td,
 tr {
   font-size: 20px;
-  margin-bottom: 25px;
+  padding-bottom: 30px;
 }
